@@ -1,39 +1,27 @@
-------------------------------------------------------------------------
+<table style="width:18%;">
+<colgroup>
+<col style="width: 18%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td># SSP On line</td>
+</tr>
+<tr class="even">
+<td><strong>Edlin Guerra-Castro<sup>2</sup>, Juan Carlos Cajas, Juan José Cruz-Motta, Nuno Simoes and Maite Mascaro</strong> Universidad NAcional Autónoma de México y Universidad de Puerto Rico ## RATIONALE OF SSP</td>
+</tr>
+<tr class="odd">
+<td><strong>SSP</strong> is an <strong>R</strong> package designed to estimate sample effort in studies of ecological communities using intensive sampling over several sets of simulated data. Our procedure is based on the previous definition of MultSE but eludes the double resampling over a unique pilot data set (Anderson and Santana-Garcon 2015). The protocol in <strong>SSP</strong> consists of simulating several extensive data matrices that mimic some of the relevant ecological features of the community of interest using a pilot data set. For each simulated data, several sampling efforts are repeatedly executed and <em>MultSE</em> is calculated to each one. The mean value, 0.025 and 0.975 quantiles of <em>MultSE</em> for each sampling effort across all simulated data are then estimated and plotted. The mean values are standardized in relation to the lowest sampling effort (consequently, the worst precision), and an optimal sampling effort can be identified as that in which the increase in sample size do not improve the precision beyond a threshold value (e.g. 3 %).</td>
+</tr>
+<tr class="even">
+<td><strong>SSP</strong> includes seven functions: <code>assempar</code> for extrapolation of assemblage parameters using pilot data; <code>simdata</code> for simulation of several data sets based on extrapolated parameters; <code>datquality</code> for evaluation of plausibility of simulated data; <code>sampsd</code> for repeated estimations of <em>MultSE</em> for different sampling designs in simulated data sets; <code>summary_sd</code> for summarizing the behavior of <em>MultSE</em> for each sampling design across all simulated data sets, <code>ioptimum</code> for identification of the optimal sampling effort, and <code>plot_ssp</code> to plot sampling effort vs <em>MultSE</em>.</td>
+</tr>
+<tr class="odd">
+<td>The SSP package is developed at <a href="https://github.com/edlinguerra/SSP/" class="uri">https://github.com/edlinguerra/SSP/</a></td>
+</tr>
+</tbody>
+</table>
 
-----------------
-
-**SSP** is an **R** package designed to estimate sample effort in
-studies of ecological communities using intensive sampling over several
-sets of simulated data. Our procedure is based on the previous
-definition of MultSE but eludes the double resampling over a unique
-pilot data set (Anderson and Santana-Garcon 2015). The protocol in
-**SSP** consists of simulating several extensive data matrices that
-mimic some of the relevant ecological features of the community of
-interest using a pilot data set. For each simulated data, several
-sampling efforts are repeatedly executed and *MultSE* is calculated to
-each one. The mean value, 0.025 and 0.975 quantiles of *MultSE* for each
-sampling effort across all simulated data are then estimated and
-plotted. The mean values are standardized in relation to the lowest
-sampling effort (consequently, the worst precision), and an optimal
-sampling effort can be identified as that in which the increase in
-sample size do not improve the precision beyond a threshold value
-(e.g. 3 %).
-
-**SSP** includes seven functions: `assempar` for extrapolation of
-assemblage parameters using pilot data; `simdata` for simulation of
-several data sets based on extrapolated parameters; `datquality` for
-evaluation of plausibility of simulated data; `sampsd` for repeated
-estimations of *MultSE* for different sampling designs in simulated data
-sets; `summary_sd` for summarizing the behavior of *MultSE* for each
-sampling design across all simulated data sets, `ioptimum` for
-identification of the optimal sampling effort, and `plot_ssp` to plot
-sampling effort vs *MultSE*.
-
-The SSP package is developed at
-<a href="https://github.com/edlinguerra/SSP/" class="uri">https://github.com/edlinguerra/SSP/</a>
-
-------------------------------------------------------------------------
-
+THE ONLINE VERSION OF SSP
 -------------------------
 
 The sequence of using **SSP** online is the same as in R.

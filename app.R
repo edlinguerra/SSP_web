@@ -1,8 +1,5 @@
 # Falta:
 
-# Intrucciones básicas de secuencia de uso
-# Nota de cita a la página web, así como limitaciones del servidor y estar atentos al nuevo.
-# Agregar Título a gráfico
 # Subir a shinyapps.io
 
 library(shiny)
@@ -66,7 +63,7 @@ ui <- fluidPage(
     mainPanel(
       tabsetPanel(
         tabPanel("Info", 
-                 includeMarkdown("SSP_online.md")),
+                 includeHTML("SSP_online.html")),
         tabPanel("Summary MultSE", 
                  dataTableOutput("summary"),
                  downloadButton("download1")),
