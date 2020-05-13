@@ -63,7 +63,7 @@ ui <- fluidPage(
     mainPanel(
       tabsetPanel(
         tabPanel("Info", 
-                 includeHTML("SSP_online.html")),
+                 includeMarkdown("SSP_online.md")),
         tabPanel("Summary MultSE", 
                  dataTableOutput("summary"),
                  downloadButton("download1")),
