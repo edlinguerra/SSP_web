@@ -27,9 +27,9 @@ application has a limit of 25 active hours per month on this server, so
 depending on the use of the app during this month, it may not be able to
 run until the beginning of next month.
 
-For citations use the pre-print:
+For citations use:
 
-Guerra-Castro, E. J., J. C. Cajas, F. N. Dias Marques Simoes, J. J.
-Cruz-Motta, and M. Mascaro. 2020. SSP: An R package to estimate sampling
-effort in studies of ecological communities.
-bioRxiv:2020.2003.2019.996991.
+Guerra-Castro, E.J., Cajas, J.C., Simões, N., Cruz-Motta, J.J., and
+Mascaró, M. (2021). SSP: an R package to estimate sampling effort in
+studies of ecological communities. Ecography 44(4), 561-573. doi:
+<https://doi.org/10.1111/ecog.05284>.
