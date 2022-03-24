@@ -1,5 +1,4 @@
-Online SSP - Estimation of sampling effort in community ecology
-===============================================================
+# Online SSP - Estimation of sampling effort in community ecology
 
 Edlin Guerra-Castro<sup>1</sup>, Juan Carlos Cajas<sup>1</sup>, Juan
 José Cruz-Motta<sup>2</sup>, Nuno Simoes<sup>1</sup> and Maite
@@ -38,10 +37,9 @@ sampling effort vs *MultSE*.
 
 **SSP** is free and open source, distributed under GNU Public License
 ver. 2 (GPL-2). This package is available on the comprehensive R archive
-network (CRAN)
-<a href="https://cran.r-project.org/web/packages/SSP/index.html" class="uri">https://cran.r-project.org/web/packages/SSP/index.html</a>
+network (CRAN) <https://cran.r-project.org/web/packages/SSP/index.html>
 and is also hosted and developed in GitHub
-<a href="https://github.com/edlinguerra/SSP" class="uri">https://github.com/edlinguerra/SSP</a>.
+<https://github.com/edlinguerra/SSP>.
 
 ------------------------------------------------------------------------
 
@@ -93,17 +91,16 @@ The sequence of using **SSP** online is the same as in R.
 
 This online version was built with [Shiny](https://shiny.rstudio.com/),
 and is hosted at [Shinyapps.io](https://https://www.shinyapps.io) and
-github
-<a href="https://github.com/edlinguerra/SSP_web" class="uri">https://github.com/edlinguerra/SSP_web</a>.
-This application has a limit of 25 active hours per month on this
-server, so depending on the use of the app during this month, it may not
-be able to run until the beginning of next month.
+github <https://github.com/edlinguerra/SSP_web>. This application has a
+limit of 25 active hours per month on this server, so depending on the
+use of the app during this month, it may not be able to run until the
+beginning of next month.
 
 ------------------------------------------------------------------------
 
 ### Citation
 
-Guerra-Castro, E. J., J. C. Cajas, F. N. Dias Marques Simoes, J. J.
-Cruz-Motta, and M. Mascaro. 2020. SSP: An R package to estimate sampling
-effort in studies of ecological communities.
-bioRxiv:2020.2003.2019.996991.
+Guerra-Castro, E.J., Cajas, J.C., Simões, N., Cruz-Motta, J.J., and
+Mascaró, M. (2021). SSP: an R package to estimate sampling effort in
+studies of ecological communities. Ecography 44(4), 561-573. doi:
+<https://doi.org/10.1111/ecog.05284>.
