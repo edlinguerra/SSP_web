@@ -236,6 +236,12 @@ server <- function(input, output, session) {
   })
   
   ## sampsd----
+  # update the max values for the sliders
+  observeEvent(sim(),{
+    updateSliderInput(session, inputId = "m", max = input$sites)
+    updateSliderInput(session, inputId = "n", max = input$N)
+  })
+  
   mse <- eventReactive(input$samp, { 
     sampsd(dat.sim = sim(), Par = par(), transformation = input$tran, method = input$method, n = input$n, m = input$m, k = input$k)
   })
@@ -252,6 +258,10 @@ server <- function(input, output, session) {
   })
   
   ## summary_ssp ----
+  observeEvent(mse(), {
+    singleMark <- ifelse(input$m == 1, FALSE, TRUE)
+    updateRadioButtons(session, inputId = "single", selected = singleMark)
+  })
   sum.MSE <- eventReactive(input$summ, { 
     summary_ssp(results = mse(), multi.site = input$single)})
   
