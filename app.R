@@ -148,8 +148,8 @@ ui <- fluidPage(
                       numericInput("multSE_cbo", "Multivariate standard error", 
                                    value = 0.20),
                       numericInput("ct_cbo", "Total cost", value = 20000),
-                      numericInput("ck_cbo", "Sampling unit cost", value = 1200),
-                      numericInput("cj_cbo", "Sample cost", value = 400),
+                      numericInput("cj_cbo", "Sampling unit cost", value = 1200),
+                      numericInput("ck_cbo", "Sample cost", value = 400),
                       actionButton("cbo_cbo", "GO sim_cbo")
             )
           ),
